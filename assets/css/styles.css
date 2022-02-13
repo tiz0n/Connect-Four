@@ -2,10 +2,32 @@ body{
     margin:0;
     padding:0;
 }
-section{
+section {
     box-sizing: border-box;
     text-align:center;
 }
 h1 {
     background-color: aqua;
+}
+section .game-Instructions{
+    justify-content: space-between;
+}
+section #game-board{
+    margin:200px;
+    margin-top: 50px;
+}
+.board{
+    margin-top: 50px;
+   margin-left:400px;
+   border: 1px solid black;
+   height: 240px;
+   width: 280px;
+   display:flex;
+   flex-wrap:wrap;
+}
+.board div{
+    height:40px;
+    width:40px;
+    color:aqua;
+
 }
